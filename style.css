@@ -1,0 +1,76 @@
+body {
+	background-image: url(gaming-pattern.png);
+	font-family: Arial, Verdana, sans-serif;
+}
+#wrapper {
+	width: 1000px;
+	background-color: #48BDB1;
+	margin: 0 auto;
+}
+header {
+	height: 100px;
+	background-color: #3C4C52;
+	padding: 10px;
+}
+header img {
+	width: 125px;
+	float: left;
+}
+h1 {
+	text-align: center;
+	padding-right: 30px;
+}
+nav {
+	text-align: center;
+}
+nav li {
+	background-color: #A1B6C7;
+	display: inline-block;
+	list-style-type: none;
+	border-radius: 5px;
+}
+nav a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	display: inline-block;
+	padding: 10px;
+}
+nav a:hover {
+	background-color: #B4B0FF;
+}
+.active-page {
+	background-color: #B4B0FF;
+}
+section h2 {
+	text-align: center;
+}
+section p {
+	text-align: center;
+}
+span {
+	color: #FF406E;
+}
+#left-content {
+	float: left;
+	width: 470px;
+	padding-left: 20px;
+}
+#right-content {
+	float: right;
+	width: 470px;
+	border-left: 1px solid black;
+	margin-bottom: 10px;
+}
+#right-content iframe {
+	margin-left: 20px;
+}
+footer {
+	clear: both;
+	text-align: center;
+	height: 100px;
+	background-color: #3C4C52;
+}
+footer p {
+	padding-top: 50px;
+}
